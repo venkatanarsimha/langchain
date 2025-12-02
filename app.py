@@ -161,7 +161,7 @@ def call_langflow_api(user_message: str, session_id: Optional[str]) -> dict:
 # ----------------------
 st.set_page_config(page_title="Langflow Chatbot", layout="centered")
 st.title("🤖 Langflow Chatbot")
-st.write("Ask anything about your documents.")
+st.write("Ask anything about your Database data.")
 
 # persistent session id to preserve conversational context
 if "session_id" not in st.session_state:
