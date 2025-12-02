@@ -6,3 +6,4 @@ streamlit
 requests
 gunicorn
 uvicorn
+langflow
