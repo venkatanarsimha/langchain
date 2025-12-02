@@ -12,7 +12,7 @@ from typing import Any, Optional
 # ----------------------
 LANGFLOW_API_URL = os.getenv(
     "LANGFLOW_API_URL",
-    "http://127.0.0.1:7860/api/v1/run/ae66468a-9440-4565-83d8-17e2b4b6543c",
+    "http://127.0.0.1:7860/api/v1/run/a8b894bc-5791-4eb9-a925-3a8136872944",
 )
 LANGFLOW_API_KEY = os.getenv("LANGFLOW_API_KEY")  # must be set in environment
 
